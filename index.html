@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XV Años — Valeryn Estrella</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tipografías elegantes de Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Great+Vibes&family=Montserrat:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- PANTALLA DE BIENVENIDA — SOBRE -->
+    <div id="sobre-overlay">
+      <div id="sobre">
+        <div id="sobre-flap"></div>
+        <div id="sobre-body"></div>
+        <div id="sello">
+          <img src="assets/images/Sello.webp" alt="" />
+        </div>
+      </div>
+      <p class="sobre-texto">Toca el sello para abrir</p>
+    </div>
+    <img class="fondo-bg" src="assets/images/bk-gn.webp" alt="" />
+    <!-- SECCIÓN 1: PORTADA -->
+    <section id="portada">
+      <img class="fondo-ocacional" src="assets/images/fondo-especial.webp" />
+      <div class="hero">
+        <img src="assets/images/corona-2.webp" class="corona" alt="Corona" />
+
+        <!-- Nuevo layout de Mis 15 Años -->
+        <div class="titulo-grupo">
+          <img
+            class="titulo-15"
+            src="assets/images/titulo-bienvenida.webp"
+            alt="Mis 15 años"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: LEMA -->
+    <section id="lema">
+      <div class="linea-decorativa"></div>
+      <p class="versiculo">
+        Encomienda al Señor tu camino; confía en Él, y Él actuará.
+      </p>
+      <p class="referencia">Salmo 37:5</p>
+      <div class="linea-decorativa"></div>
+    </section>
+
+    <!-- SECCIÓN 3: MÚSICA -->
+    <section id="musica">
+      <div id="reproductor">
+        <audio id="audio" loop>
+          <source src="assets/cancion-lana.mp3" type="audio/mpeg" />
+        </audio>
+
+        <canvas id="ondaCanvas"></canvas>
+
+        <div class="controles">
+          <button id="btnStop">Detener música</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: FAMILIA -->
+    <section id="familia">
+      <p class="mensaje-padres">
+        Hace quince años recibimos el regalo más hermoso de nuestras vidas de
+        parte de Dios, nuestra hija Estrella. Hoy, con el corazón lleno de
+        orgullo y emoción, celebramos junto a ella el comienzo de una nueva
+        etapa.
+      </p>
+      <p class="invitacion-padres">
+        Deseamos compartir esta fecha tan especial con las personas que queremos
+        y que han formado parte de nuestro camino.
+      </p>
+      <h3 class="nombre-familia">Mynor Jérez Maldonado</h3>
+      <h3 class="nombre-familia">Yolanda Escobar de Jérez</h3>
+    </section>
+
+    <section>
+      <p>
+        Tenemos el gusto de invitarlos a celebrar los 15 años de nuestra querida
+        hija:
+      </p>
+      <img
+        class="nombre-pro"
+        src="assets/images/Nombre-pro.webp"
+        alt="Estrella Jérez"
+      />
+    </section>
+
+    <section id="padrinos">
+      <p class="padrinos-titulo">Mis Padrinos</p>
+      <p class="nombre-padrino">
+        Fam. <span class="padrinos-resaltar">Jérez Escobar</span> · Fam.
+        <span class="padrinos-resaltar">Jérez Gómez</span> · Fam.
+        <span class="padrinos-resaltar">Girón Jérez</span> · Fam.
+        <span class="padrinos-resaltar">Arana García</span> ·
+        <span class="padrinos-resaltar">Majorie Jérez</span> ·
+        <span class="padrinos-resaltar">Jonathan de Leon</span> ·
+        <span class="padrinos-resaltar">Jackeline Jérez</span> ·
+        <span class="padrinos-resaltar">Fidelia Aguilar</span>
+      </p>
+    </section>
+
+    <!-- SECCIÓN 5: FECHA -->
+    <section id="fecha">
+      <img
+        class="titulo-15-fecha"
+        src="assets/images/titulo-bienvenida.webp"
+        alt="Mis 15 años"
+      />
+
+      <div class="bloque-fecha">
+        <p class="dia-semana">Domingo</p>
+        <p class="numero-dia">20</p>
+        <p class="mes-año">Diciembre · 2026</p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6: COUNTDOWN -->
+    <section id="countdown">
+      <p class="faltan">Faltan</p>
+      <div class="contador">
+        <div class="unidad">
+          <span id="dias">00</span>
+          <p>Días</p>
+        </div>
+        <div class="separador">:</div>
+        <div class="unidad">
+          <span id="horas">00</span>
+          <p>Horas</p>
+        </div>
+        <div class="separador">:</div>
+        <div class="unidad">
+          <span id="minutos">00</span>
+          <p>Minutos</p>
+        </div>
+        <div class="separador">:</div>
+        <div class="unidad">
+          <span id="segundos">00</span>
+          <p>Segundos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7: CALENDARIO -->
+    <section id="calendario">
+      <p class="mes-cal">Diciembre 2026</p>
+      <table class="cal-tabla">
+        <thead>
+          <tr>
+            <th>LUN</th>
+            <th>MAR</th>
+            <th>MIÉ</th>
+            <th>JUE</th>
+            <th>VIE</th>
+            <th>SÁB</th>
+            <th>DOM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td class="dia-evento">
+              <img
+                class="cora"
+                src="assets/images/corazon.png"
+                alt="corazón indicando la fecha 20"
+              />
+              <span class="veinte">20</span>
+            </td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECCIÓN 8: CEREMONIA -->
+    <section id="ceremonia">
+      <div class="icono-iglesia">
+        <img src="assets/images/iglesia.png" alt="" />
+      </div>
+      <h3 class="seccion-titulo">Ceremonia &amp; Recepción</h3>
+      <p class="hora-evento">3:30 PM</p>
+      <p class="lugar-nombre">Hacienda Los Volcanes</p>
+      <p class="lugar-direccion">
+        Km. 30 Carretera a Bárcenas<br />Sta. Lucía Milpas Altas, Antigua
+        Guatemala
+      </p>
+      <a
+        class="btn-ubicacion"
+        href="https://waze.com/ul/h9fxdckums"
+        target="_blank"
+        >Ver Ubicación</a
+      >
+    </section>
+
+    <!-- SECCIÓN 9: ITINERARIO -->
+    <section id="itinerario">
+      <h3 class="seccion-titulo">Itinerario de Actividades</h3>
+      <div class="timeline">
+        <div class="evento-tiempo">
+          <span class="hora">3:30 PM</span>
+          <span class="punto">◆</span>
+          <span class="actividad">Llegada de Invitados</span>
+        </div>
+        <div class="evento-tiempo">
+          <span class="hora">4:00 - 5:00 pm</span>
+          <span class="punto">◆</span>
+          <span class="actividad">Ceremonia</span>
+        </div>
+        <div class="evento-tiempo">
+          <span class="hora">6:00 pm en adelante</span>
+          <span class="punto">◆</span>
+          <span class="actividad">Recepción y Vals</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 10: VESTIMENTA -->
+    <section id="vestimenta">
+      <h3 class="seccion-titulo">Código de Vestimenta</h3>
+      <p class="etiqueta">ETIQUETA</p>
+      <p class="vestimenta-texto">
+        Vestimenta elegante para ambos géneros.<br />Los colores
+        <strong>Blush Tornasol</strong> y <strong>Dorado</strong> quedan
+        reservados para la quinceañera y familia.
+      </p>
+    </section>
+
+    <!-- SECCIÓN 11: LLUVIA DE SOBRES -->
+    <section id="lluvia-sobres">
+      <h3 class="seccion-titulo">Regalo</h3>
+
+      <p class="sobres-intro">
+        Tú serás partícipe de mi<br />
+        próximo sueño.
+      </p>
+      <div class="icono-sobre">
+        <img src="assets/images/sobres.webp" alt="Icono sobre" />
+      </div>
+      <h3 class="texto-final-regalo">¡Lluvia de Sobres!</h3>
+      <p class="efectivo">(Efectivo)</p>
+    </section>
+
+    <!-- SECCIÓN 12: CONFIRMACIÓN -->
+    <section id="confirmacion">
+      <h3 class="seccion-titulo">Confirmar Asistencia</h3>
+      <p class="confirmar-texto">Por favor confirma tu asistencia antes del</p>
+      <p class="fecha-limite">5 de Diciembre, 2026</p>
+      <a
+        class="btn-confirmar"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdj3NlgJ10K7BdF9AwXtJO-FCtdF4dc5LKnmLzLwNBQq7ICbA/viewform?pli=1"
+        target="_blank"
+        >Confirmar Aquí</a
+      >
+      <p class="mensaje-final">
+        Con mucho cariño, esta celebración es para que todos puedan compartir y
+        disfrutar juntos.
+      </p>
+    </section>
+
+    <!-- SECCIÓN 13: CIERRE -->
+    <section id="cierre">
+      <h2 class="te-esperamos">¡Te esperamos!</h2>
+      <p class="firma">Valeryn Estrella</p>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="espectro.js"></script>
+  </body>
+</html>
