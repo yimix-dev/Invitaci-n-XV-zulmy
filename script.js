@@ -38,7 +38,7 @@ window.onload = function () {
   // COUNTDOWN
   // ===========================
   function actualizarContador() {
-    const evento = new Date("2026-12-20T15:30:00-06:00");
+    const evento = new Date("2026-12-05T14:00:00-06:00");
     const ahora = new Date();
     const diferencia = evento - ahora;
 
