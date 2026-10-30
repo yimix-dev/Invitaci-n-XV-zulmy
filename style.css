@@ -772,66 +772,6 @@ section.visible .mes-año {
 }
 
 /* ===========================
-   ITINERARIO
-=========================== */
-
-#itinerario {
-  padding: 60px 30px;
-}
-
-.timeline {
-  margin-top: 30px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: var(--dorado-claro);
-  transform: translateX(-50%);
-  z-index: 0;
-}
-
-.evento-tiempo {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 15px;
-  position: relative;
-  width: 100%;
-}
-
-.hora {
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--dorado);
-  text-align: right;
-}
-
-.punto {
-  font-size: 10px;
-  color: var(--dorado);
-  z-index: 1;
-  padding: 2px;
-}
-
-.actividad {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 17px;
-  color: var(--texto-oscuro);
-  text-align: left;
-  min-width: 120px;
-}
-
-/* ===========================
    VESTIMENTA
 =========================== */
 
