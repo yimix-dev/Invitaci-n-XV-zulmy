@@ -772,36 +772,6 @@ section.visible .mes-año {
 }
 
 /* ===========================
-   VESTIMENTA
-=========================== */
-
-#vestimenta {
-  padding: 60px 30px;
-}
-
-.etiqueta {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  color: var(--dorado);
-  margin: 15px 0;
-}
-
-.vestimenta-texto {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
-  color: var(--texto-medio);
-  line-height: 1.8;
-  padding: 0 15px;
-}
-
-.vestimenta-texto strong {
-  color: var(--dorado);
-  font-weight: 600;
-}
-
-/* ===========================
    LLUVIA DE SOBRES
 =========================== */
 
