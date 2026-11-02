@@ -520,7 +520,7 @@ section.visible .mes-año {
   white-space: nowrap;
 }
 
-.ampersand {
+.ampersand {  
   font-family: "The Nautigal", cursive;
   font-size: 50px;
   color: #3D3B40;
@@ -591,6 +591,14 @@ section.visible .mes-año {
   text-transform: uppercase;
   color: #3D3B40;
   margin-top: 25px;
+}
+.hora {
+    font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #3D3B40;
+  margin-top: 10px;
 }
 
 /* ===========================
