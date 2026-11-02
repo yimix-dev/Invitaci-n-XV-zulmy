@@ -427,7 +427,7 @@ section.visible .mes-año {
   width: clamp(150px, 30vw, 160px);
   height: auto;
   display: block;
-  margin: 0 auto -40px;
+  margin: 0 auto 10px;
   filter: drop-shadow(0 4px 4px rgba(61, 59, 59, 0.55));
   position: relative;
   z-index: 2;
@@ -474,12 +474,12 @@ section.visible .mes-año {
   max-width: 400px;
   height: 200px;
   margin: 25px auto;
-  background-color: var(--dorado);
-  -webkit-mask-image: url("assets/images/divisor.png");
+  background-color: #13275B;
+  -webkit-mask-image: url("assets/images/divisor.webp");
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  mask-image: url("assets/images/divisor.png");
+  mask-image: url("assets/images/divisor.webp");
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -694,8 +694,8 @@ section.visible .mes-año {
 
 .dia-evento .cora {
   position: absolute;
-  width: 53px;
-  height: 53px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
   top: 50%;
   left: 50%;
@@ -722,7 +722,7 @@ section.visible .mes-año {
 
 .icono-iglesia {
   animation: flotar 3s ease-in-out infinite;
-  width: 35px;
+  width: 55px;
   height: auto;
   margin: 0 auto 15px;
 }
