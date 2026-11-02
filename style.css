@@ -513,7 +513,7 @@ section.visible .mes-año {
 
 .nombre-familia {
   font-family: "The Nautigal", cursive;
-  font-size: clamp(32px, 7vw, 40px);
+  font-size: clamp(40px, 8vw, 50px);
   color: #3D3B40;
   font-weight: 400;
   line-height: 1.1;
