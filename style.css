@@ -15,7 +15,7 @@
 /* ===========================
    BASE
 =========================== */
-  
+
 html {
   background-color: #DCDCE0 ;
   min-height: 100%;
@@ -489,7 +489,7 @@ section.visible .mes-año {
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
   font-style: italic;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   line-height: 1.3;
   padding: 0 20px;
 }
@@ -498,7 +498,7 @@ section.visible .mes-año {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   letter-spacing: 3px;
-  color: var(--dorado);
+  color: #3D3B40;
   text-transform: uppercase;
   margin-top: 10px;
 }
@@ -514,7 +514,7 @@ section.visible .mes-año {
 .nombre-familia {
   font-family: "The Nautigal", cursive;
   font-size: clamp(32px, 7vw, 40px);
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   font-weight: 400;
   line-height: 1.1;
   white-space: nowrap;
@@ -523,14 +523,14 @@ section.visible .mes-año {
 .ampersand {
   font-family: "The Nautigal", cursive;
   font-size: 50px;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   margin: 5px 0;
 }
 
 .mensaje-padres {
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-  color: var(--texto-medio);
+  color: #3D3B40;
   line-height: 1.5;
   margin: 30px 0 25px;
 }
@@ -538,7 +538,7 @@ section.visible .mes-año {
 .invitacion-padres {
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-  color: var(--texto-medio);
+  color: #3D3B40;
   line-height: 1.5;
   margin: 25px 0 30px;
 }
@@ -564,6 +564,7 @@ section.visible .mes-año {
   height: auto;
   filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.18))
     drop-shadow(0 15px 15px rgba(0, 0, 0, 0.1));
+  color: #3D3B40;
 }
 
 .dia-semana {
@@ -571,14 +572,14 @@ section.visible .mes-año {
   font-size: 16px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   margin-bottom: -25px;
 }
 
 .numero-dia {
   font-family: "Cormorant Garamond", serif;
   font-size: 120px;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   line-height: 1;
   font-weight: 100;
 }
@@ -588,7 +589,7 @@ section.visible .mes-año {
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: var(--texto-medio);
+  color: #3D3B40;
   margin-top: 25px;
 }
 
@@ -603,7 +604,7 @@ section.visible .mes-año {
 .faltan {
   font-family: "The Nautigal", cursive;
   font-size: 60px;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   margin-bottom: -15px;
 }
 
@@ -622,7 +623,7 @@ section.visible .mes-año {
 .unidad span {
   font-family: "Cormorant Garamond", serif;
   font-size: 52px;
-  color: var(--dorado);
+  color: #3D3B40  ;
   font-weight: 300;
   line-height: 1;
   display: block;
@@ -632,14 +633,14 @@ section.visible .mes-año {
   font-family: "Montserrat", sans-serif;
   font-size: 9px;
   letter-spacing: 2px;
-  color: var(--texto-oscuro);
+  color: #3D3B40;
   margin-top: 15px;
 }
 
 .separador {
   font-family: "Cormorant Garamond", serif;
   font-size: 40px;
-  color: var(--dorado);
+  color: #3D3B40;
   margin-bottom: 20px;
 }
 
@@ -656,7 +657,7 @@ section.visible .mes-año {
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: var(--dorado);
+  color: #3D3B40;
   margin-bottom: 20px;
 }
 
@@ -665,14 +666,14 @@ section.visible .mes-año {
   border-collapse: collapse;
   font-family: "Cormorant Garamond", serif;
   font-size: 16px;
-  color: var(--texto-medio);
+  color: #3D3B40;
 }
 
 .cal-tabla th {
   font-family: "Montserrat", sans-serif;
   font-size: 9px;
   letter-spacing: 2px;
-  color: var(--dorado);
+  color: #3D3B40;
   padding: 8px 0;
   font-weight: 400;
 }
@@ -680,7 +681,7 @@ section.visible .mes-año {
 .cal-tabla td {
   padding: 8px 0;
   text-align: center;
-  color: var(--texto-medio);
+  color: #3D3B40  ;
 }
 
 .dia-evento {
@@ -735,7 +736,7 @@ section.visible .mes-año {
 .seccion-titulo {
   font-family: "The Nautigal", cursive;
   font-size: 50px;
-  color: var(--dorado);
+  color: #3D3B40;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -745,21 +746,21 @@ section.visible .mes-año {
   font-size: 13px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: var(--dorado);
+  color: #3D3B40;
   margin-bottom: 15px;
 }
 
 .lugar-nombre {
   font-family: "Cormorant Garamond", serif;
   font-size: 22px;
-  color: var(--texto-oscuro);
+  color: #3D3B40    ;
   margin-bottom: 8px;
 }
 
 .lugar-direccion {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: var(--texto-medio);
+  color: #3D3B40  ;
   line-height: 1.8;
   margin-bottom: 25px;
 }
@@ -767,8 +768,8 @@ section.visible .mes-año {
 .btn-ubicacion {
   display: inline-block;
   padding: 12px 35px;
-  border: 1px solid var(--dorado);
-  color: var(--dorado);
+  border: 1px solid #3D3B40;
+  color: #3D3B40  ;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
   letter-spacing: 3px;
@@ -779,7 +780,7 @@ section.visible .mes-año {
 }
 
 .btn-ubicacion:hover {
-  background: var(--dorado);
+  background: #3D3B40;
   color: var(--blanco);
 }
 
@@ -804,14 +805,14 @@ section.visible .mes-año {
 
 #lluvia-sobres .seccion-titulo {
   font-size: 55px;
-  color: #cd8880;
+  color: 13275B;
   margin: 0 0 20px;
 }
 
 #lluvia-sobres .texto-final-regalo {
   font-family: "The Nautigal", cursive;
   font-size: 40px;
-  color: var(--dorado);
+  color: #3D3B40;
   font-weight: 400;
   margin: 0 0 2px;
 }
@@ -822,7 +823,7 @@ section.visible .mes-año {
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   line-height: 1.6;
-  color: var(--texto-medio);
+  color: #3D3B40;
 }
 
 .sobres-intro {
@@ -831,7 +832,7 @@ section.visible .mes-año {
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   line-height: 1.6;
-  color: var(--texto-medio);
+  color: #3D3B40;
 }
 
 /* ===========================
@@ -846,7 +847,7 @@ section.visible .mes-año {
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   font-style: italic;
-  color: var(--texto-medio);
+  color: #3D3B40;
   margin-bottom: 10px;
 }
 
@@ -854,14 +855,14 @@ section.visible .mes-año {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
-  color: var(--dorado);
+  color: #2A4178;
   margin-bottom: 25px;
 }
 
 .btn-confirmar {
   display: inline-block;
   padding: 15px 40px;
-  background: var(--dorado);
+  background: #2A4178;
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -874,7 +875,7 @@ section.visible .mes-año {
 }
 
 .btn-confirmar:hover {
-  background: var(--texto-oscuro);
+  background: #06143E;
   color: var(--blanco);
 }
 
@@ -882,10 +883,17 @@ section.visible .mes-año {
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   font-style: italic;
-  color: var(--texto-medio);
+  color: #3D3B40;
   line-height: 1.8;
   padding: 0 15px;
   margin-top: 25px;
+}
+.te-esperamos {
+  color: #06143E;
+}
+
+.firma {
+  color: #2A4178;
 }
 
 /* ===========================
@@ -918,8 +926,8 @@ section.visible .mes-año {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  background: linear-gradient(135deg, #e8a0b4, #c9a24b);
-  color: #fff9f4;
+  background: linear-gradient(135deg, #2A4178, #13275B);
+  color: #FFFFFF;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
@@ -944,13 +952,13 @@ section.visible .mes-año {
   z-index: 999;
   background: radial-gradient(
     ellipse,
-    #f4c2c2 0%,
-    #e8b4b8 60%,
+    #E8F1FF 0%,
+    #A9C4E8 60%,
     transparent 100%
   );
   border-radius: 50% 0 50% 0;
   animation: caer linear forwards;
-  box-shadow: inset 0 0 4px rgba(200, 100, 100, 0.2);
+  box-shadow: inset 0 0 4px rgba(42, 65, 120, 0.12);
 }
 
 @keyframes caer {
